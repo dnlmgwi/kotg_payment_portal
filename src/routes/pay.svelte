@@ -77,7 +77,7 @@
         </div>
         <div class="text-center mt-3">
           <p>
-            <small class="me-2">v0.0.1-alpha</small>
+            <small class="me-2">v0.0.3-alpha</small>
           </p>
         </div>
       </Col>
