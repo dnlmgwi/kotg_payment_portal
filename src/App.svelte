@@ -7,7 +7,7 @@
   import Pay from "./routes/pay.svelte";
   import PaymentSuccess from "./routes/payment-success.svelte";
 
-  export let url = "/";
+  export let url = "/*";
 </script>
 
 <Router {url}>
@@ -15,7 +15,7 @@
     <Route path="/payment-success"><PaymentSuccess /></Route>
     <!-- <Route path="/1"><Layout1 /></Route> -->
     <!-- <Route path="/2"><Layout2 /></Route> -->
-    <Route path="/"><Pay /></Route>
+    <Route path="/*"><Pay /></Route>
     <!-- <Route path="/signup"><Signup /></Route> -->
     <!-- <Route path="/password_forget"><Password_forget /></Route> -->
   </div>

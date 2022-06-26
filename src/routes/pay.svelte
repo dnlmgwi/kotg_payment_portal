@@ -114,7 +114,7 @@
         </div>
         <div class="text-center mt-3">
           <p>
-            <small class="me-2">v0.0.4-alpha</small>
+            <small class="me-2">v0.0.5-alpha</small>
           </p>
         </div>
       </Col>

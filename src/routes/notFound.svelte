@@ -15,13 +15,13 @@
       <Col lg={4}>
         <div class="bg-white p-4 rounded">
           <div class="text-center">
-            <h4 class="fw-bold mb-3">Payment Succesful.</h4>
+            <h4 class="fw-bold mb-3">Not Found</h4>
           </div>
         </div>
         <div class="text-center mt-3">
           <p>
-            <small class="me-2">Want to make another payment ?</small>
-            <Link to="" class="fw-bold" replace>Pay Again</Link>
+            <small class="me-2">Back to safety ?</small>
+            <Link to="/" class="fw-bold">Click Here</Link>
           </p>
         </div>
       </Col>
