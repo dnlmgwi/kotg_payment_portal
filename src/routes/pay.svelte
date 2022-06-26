@@ -13,22 +13,6 @@
   import { Link } from "svelte-routing";
   import Footer from "../Components/Footer.svelte";
   let radioGroup;
-
-  let ticketReference = "";
-  let phoneNumber = "";
-
-  const submit = async () => {
-    await fetch(env("PAYMENT_ENDPOINT"), {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      credentials: "include",
-      body: JSON.stringify({
-        ticketReference,
-        phoneNumber,
-      }),
-    });
-    goto("/payment-success");
-  };
 </script>
 
 <section class="bg-login d-flex align-items-center">
