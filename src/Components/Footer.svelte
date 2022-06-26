@@ -1,6 +1,6 @@
 <script>
   import { Link } from "svelte-routing";
-  import { Container, Row, Col } from "sveltestrap";
+  import { Container, Row, Col, Icon } from "sveltestrap";
   import { onMount } from "svelte";
 
   let isSwitchToggle = false;
@@ -39,7 +39,7 @@
   <Container>
     <Row>
       <Col lg={12}>
-        <div class="text-center">
+        <!-- <div class="text-center">
           <ul class="list-inline social mb-0">
             <li class="list-inline-item">
               <Link to={"#"} class="social-icon text-muted"
@@ -56,8 +56,13 @@
                 ><i class="ti-linkedin" /></Link
               >
             </li>
+            <li class="list-inline-item">
+              <Link to={"#"} class="social-icon text-muted"
+                ><i class="ti-instagram" /></Link
+              >
+            </li>
           </ul>
-        </div>
+        </div> -->
         <div class="footer-terms">
           <ul class="mb-0 list-inline text-center mt-4 pt-2">
             <li class="list-inline-item">

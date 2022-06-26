@@ -22,9 +22,9 @@
 15.responsive
 
 *****************************************/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Mulish:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap");
 body {
-  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden !important;
   position: relative;
 }
@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn,

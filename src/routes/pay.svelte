@@ -1,29 +1,18 @@
 <script>
-  import {
-    Input,
-    Container,
-    Row,
-    Button,
-    Form,
-    ButtonGroup,
-    Col,
-    FormGroup,
-    Label,
-  } from "sveltestrap";
+  import { Input, Container, Row, Button, Form, Col } from "sveltestrap";
   import { Link } from "svelte-routing";
   import Footer from "../Components/Footer.svelte";
-  let radioGroup;
 </script>
 
 <section class="bg-login d-flex align-items-center">
   <Container>
-    <Row class="justify-content-center mt-4">
+    <Row class="justify-content-center mt-5">
       <Col lg={4}>
         <div class="bg-white p-4 mt-5 rounded">
           <div class="text-center">
             <h4 class="fw-bold mb-3">Payment Portal</h4>
           </div>
-          <FormGroup class="login-form">
+          <Form class="login-form">
             <Row>
               <Col lg={12} class="mt-2">
                 <Input
@@ -53,6 +42,7 @@
                   required=""
                 />
               </Col> -->
+              <!-- <captcha sitekey={mySitekey} /> -->
               <!-- TODO Add Captcha -->
               <Col lg={12} class="mt-2">
                 <div class="form-check">
@@ -62,11 +52,13 @@
                     value=""
                     id="flexCheckDefault"
                   />
-                  <label class="form-check-label" for="flexCheckDefault">
-                    I declare I am over 18 years old and agree to KOTG's <Link
-                      to="#">Terms And Condition</Link
+                  <p>
+                    <label class="form-check-label" for="flexCheckDefault">
+                      I declare I am over 18 years old and agree to KOTG's <Link
+                        to="#">Terms And Condition</Link
+                      ></label
                     >
-                  </label>
+                  </p>
                 </div>
               </Col>
               <Col lg={12} class="mt-5">
@@ -74,7 +66,7 @@
               </Col>
             </Row>
             <!-- end row -->
-          </FormGroup>
+          </Form>
           <!-- end form -->
         </div>
         <div class="text-center mt-3">

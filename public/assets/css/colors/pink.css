@@ -8,10 +8,9 @@
 .navbar-custom.navbar-light .navbar-nav li.active a,
 .navbar-custom.navbar-light .navbar-nav li a:hover,
 .navbar-custom.navbar-light .navbar-nav li a:focus,
-.navbar-custom.navbar-light .navbar-nav li a:active{
-    color: #ff546c !important;
+.navbar-custom.navbar-light .navbar-nav li a:active {
+  color: #c511f2 !important;
 }
-
 
 .bg-primary,
 .btn-primary,
@@ -19,13 +18,14 @@
 .team-social li a:hover,
 .contact-border,
 .back-to-top:hover {
-    background-color: #ff546c !important;
+  background-color: #c511f2 !important;
 }
 
 .btn-primary,
 .registration-input-box:focus,
-.form-control:focus,.team-social li a:hover {
-    border-color: #ff546c;
+.form-control:focus,
+.team-social li a:hover {
+  border-color: #c511f2;
 }
 
 .btn-primary:hover,
@@ -37,6 +37,6 @@
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #d8455a;
-    background-color: #d8455a;
+  border-color: #c511f2;
+  background-color: #c511f2;
 }

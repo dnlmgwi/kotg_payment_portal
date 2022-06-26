@@ -9,7 +9,7 @@
 .navbar-custom.navbar-light .navbar-nav li a:hover,
 .navbar-custom.navbar-light .navbar-nav li a:focus,
 .navbar-custom.navbar-light .navbar-nav li a:active {
-  color: #3f87f5 !important;
+  color: #c511f2 !important;
 }
 
 .bg-primary,
@@ -18,7 +18,7 @@
 .team-social li a:hover,
 .contact-border,
 .back-to-top:hover {
-  background-color: #3f87f5 !important;
+  background-color: #c511f2 !important;
 }
 
 .btn-primary,
@@ -37,6 +37,6 @@
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary {
-  border-color: #3879dc;
-  background-color: #3879dc;
+  border-color: #c511f2;
+  background-color: #c511f2;
 }

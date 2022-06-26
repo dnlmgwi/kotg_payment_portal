@@ -23,19 +23,6 @@
 
 <Router {url}>
   <div>
-    <!-- <Route path="/"><Layout1 /></Route>
-    <Route path="/layout1"><Layout1 /></Route>
-    <Route path="/layout2"><Layout2 /></Route>
-    <Route path="/layout3"><Layout3 /></Route>
-    <Route path="/layout4"><Layout4 /></Route>
-    <Route path="/layout5"><Layout5 /></Route>
-    <Route path="/layout6"><Layout6 /></Route>
-    <Route path="/layout7"><Layout7 /></Route>
-    <Route path="/layout8"><Layout8 /></Route>
-    <Route path="/layout9"><Layout9 /></Route>
-    <Route path="/layout10"><Layout10 /></Route>
-    <Route path="/layout11"><Layout11 /></Route>
-    <Route path="/layout12"><Layout12 /></Route> -->
     <Route path="/"><Pay /></Route>
     <!-- <Route path="/signup"><Signup /></Route> -->
     <!-- <Route path="/password_forget"><Password_forget /></Route> -->
