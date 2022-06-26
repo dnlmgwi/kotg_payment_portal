@@ -8,6 +8,12 @@
   <Container>
     <Row class="justify-content-center mt-5">
       <Col lg={4}>
+        <div class="mt-2" />
+        <img
+          src="assets/logo.png"
+          alt=""
+          class="img-fluid mx-auto mt-5 d-block"
+        />
         <div class="bg-white p-4 mt-5 rounded">
           <div class="text-center">
             <h4 class="fw-bold mb-3">Payment Portal</h4>
@@ -71,7 +77,7 @@
         </div>
         <div class="text-center mt-3">
           <p>
-            <small class="text-white me-2">v0.0.1</small>
+            <small class="me-2">v0.0.1-alpha</small>
           </p>
         </div>
       </Col>
@@ -79,3 +85,9 @@
     <Footer />
   </Container>
 </section>
+
+<style>
+  img {
+    width: 110px;
+  }
+</style>

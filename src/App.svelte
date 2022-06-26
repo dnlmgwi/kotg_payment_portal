@@ -23,6 +23,9 @@
 
 <Router {url}>
   <div>
+    <!-- <Route path="/1"><Layout1 /></Route> -->
+    <!-- <Route path="/1"><Layout1 /></Route> -->
+    <!-- <Route path="/2"><Layout2 /></Route> -->
     <Route path="/"><Pay /></Route>
     <!-- <Route path="/signup"><Signup /></Route> -->
     <!-- <Route path="/password_forget"><Password_forget /></Route> -->
