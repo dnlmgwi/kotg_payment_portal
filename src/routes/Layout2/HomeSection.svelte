@@ -1,0 +1,36 @@
+<script>
+  import { Link } from 'svelte-routing'
+  import { Container, Row, Col } from 'sveltestrap'
+</script>
+
+<section class="bg-home vh-100" id="home">
+  <div class="home-center">
+    <div class="home-desc-center">
+      <Container>
+        <Row class="justify-content-center">
+          <Col lg={10}>
+            <div class="text-center">
+              <h1 class="text-white home-title mb-0">
+                A digital web studio creating stunning & engaging online
+                experiences
+              </h1>
+              <p
+                class="text-muted  home-subtitle-center home-subtitle mt-4 mb-0 mx-auto"
+              >
+                It is a long established fact that a reader will be of a page
+                when established fact looking at its layout.
+              </p>
+              <div class="mt-4">
+                <Link to={'#'} class="btn btn-outline-white  btn-round"
+                  >Read More</Link
+                >
+              </div>
+            </div>
+          </Col>
+          <!-- end col -->
+        </Row>
+        <!-- end row -->
+      </Container>
+    </div>
+  </div>
+</section>
