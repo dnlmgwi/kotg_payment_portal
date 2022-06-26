@@ -1,5 +1,10 @@
 <script context="module">
   import ErrorScreen from "./errorScreen.svelte";
+  import NotFound from "./notFound.svelte";
+
+  export let message;
+  export let status;
+
   export function load({ error, status }) {
     return {
       props: {
@@ -8,13 +13,6 @@
       },
     };
   }
-</script>
-
-<script>
-  import NotFound from "./notFound.svelte";
-
-  export let message;
-  export let status;
 </script>
 
 {#if status == 404}
